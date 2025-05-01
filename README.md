@@ -47,4 +47,5 @@ This project implements the relational database schema for a fictional bookstore
 
 - Foreign keys and composite keys are used to enforce referential integrity based on the relational schema.
 - Relationship tables (`Authored`, `Assist`, `Process`, `Contain`) use composite primary keys as needed.
+- The super_EID attribute in the Employees table is a self-referencing foreign key that points to E_ID in the same table. This models manager–subordinate relationships, where an employee’s direct supervisor is also an employee in the system.
 - Managers are modeled as employees and referenced via a self-referencing foreign key (`M_ID` → `Employees.E_ID`)
