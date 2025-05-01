@@ -2,12 +2,6 @@
 
 This project implements the relational database schema for a fictional bookstore system. It is based on the relational schema developed in Project 1. This repository includes executable `.sql` scripts that create the database and all associated tables in MySQL.
 
-## Team Members
-- 
-- 
-- 
-- 
-
 ## Project Structure
 
 - `create_database.sql` — Creates and selects the database (`BookstoreDB`).
