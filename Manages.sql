@@ -1,0 +1,9 @@
+CREATE TABLE Manages (
+    E_ID INT,
+    B_ID INT,
+    M_ID INT,
+    PRIMARY KEY (E_ID, B_ID),
+    FOREIGN KEY (B_ID) REFERENCES Inventory(B_ID),
+    FOREIGN KEY (E_ID) REFERENCES Employees(E_ID),
+    FOREIGN KEY (M_ID) REFERENCES Employees(E_ID)
+);

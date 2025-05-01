@@ -1,0 +1,7 @@
+CREATE TABLE Contain (
+    O_ID INT,
+    B_ID INT,
+    PRIMARY KEY (O_ID , B_ID),
+    FOREIGN KEY (O_ID) REFERENCES Orders (O_ID),
+    FOREIGN KEY (B_ID)  REFERENCES Books (B_ID)
+);

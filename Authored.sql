@@ -1,0 +1,7 @@
+CREATE TABLE Authored (
+    B_ID INT,
+    A_ID INT,
+    PRIMARY KEY (B_ID, A_ID),
+    FOREIGN KEY (B_ID) REFERENCES Books(B_ID),
+    FOREIGN KEY (A_ID) REFERENCES Authors(A_ID)
+);
