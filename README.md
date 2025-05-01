@@ -29,7 +29,7 @@ This project implements the relational database schema for a fictional bookstore
 
 1. Open MySQL Workbench or your MySQL CLI.
 2. Run `create_database.sql` to create and switch into the `BookstoreDB` database.
-3. Execute each of the `CREATE TABLE` scripts in the following order:
+3. Execute each of the `CREATE TABLE` scripts in the following order for foreign key dependencies:
   - `Customers.sql`
   - `Orders.sql`
   - `Payments.sql`
