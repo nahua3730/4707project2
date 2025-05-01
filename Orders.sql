@@ -2,6 +2,7 @@ CREATE TABLE Orders (
     O_ID INT PRIMARY KEY,
     C_ID INT,
     ODate DATE,
+    SDate DATE,
     Pstatus VARCHAR(20),
     Price DECIMAL(10, 2),
     Quantity INT,
