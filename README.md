@@ -1,6 +1,6 @@
 # BookstoreDB SQL Schema
 
-This project implements the relational database schema for a fictional bookstore system. It is based on an ER/EER diagram developed in Group Project 1 and converted into a normalized relational schema. This repository includes executable `.sql` scripts that create the database and all associated tables in MySQL.
+This project implements the relational database schema for a fictional bookstore system. It is based on the relational schema developed in Project 1. This repository includes executable `.sql` scripts that create the database and all associated tables in MySQL.
 
 ## Team Members
 - [Your Full Name] (e.g., Na Hua)
