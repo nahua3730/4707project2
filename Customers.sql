@@ -3,7 +3,7 @@ CREATE TABLE Customers (
     FName VARCHAR(50),
     LName VARCHAR(50),
     phone VARCHAR(20),
-    emailaddr VARCHAR(100),
-    billingaddr TEXT,
-    shippingaddr TEXT
+    emailAddr VARCHAR(100),
+    billingAddr TEXT,
+    shippingAddr TEXT
 );
