@@ -44,7 +44,8 @@ This project implements the relational database schema for a fictional bookstore
   - `Contain.sql`
 
 ## Notes
-
+- We made create_database.sql to test the database.
+- We chose 15 characters for the name attributes because the lecture slide also chose 15 characters for the name.
 - Foreign keys and composite keys are used to enforce referential integrity based on the relational schema.
 - Relationship tables (`Authored`, `Assist`, `Process`, `Contain`) use composite primary keys as needed.
 - The super_EID attribute in the Employees table is a self-referencing foreign key that points to E_ID in the same table. This models manager–subordinate relationships, where an employee’s direct supervisor is also an employee in the system.
