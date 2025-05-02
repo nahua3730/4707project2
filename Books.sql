@@ -4,7 +4,7 @@ CREATE TABLE Books (
     PublicationYear INT,
     genre VARCHAR(50),
     price DECIMAL(10, 2),
-    PubName VARCHAR(100),
+    PubName VARCHAR(15),
     PubContact VARCHAR(100),
     stock INT,
     Ithreshold INT
