@@ -1,6 +1,6 @@
 CREATE TABLE Process (
-    E_ID INT,
-    O_ID INT,
+    E_ID INT NOT NULL,
+    O_ID INT NOT NULL,
     PRIMARY KEY (E_ID, O_ID),
     FOREIGN KEY (E_ID) REFERENCES Employees(E_ID),
     FOREIGN KEY (O_ID) REFERENCES Orders(O_ID)
