@@ -1,7 +1,7 @@
 CREATE TABLE Inventory (
     B_ID INT NOT NULL UNIQUE,
     quantity INT NOT NULL,
-    threshold INT,
+    threshold INT NOT NULL,
     E_ID INT,
     PRIMARY KEY (B_ID),
     FOREIGN KEY (B_ID) REFERENCES Books(B_ID),
