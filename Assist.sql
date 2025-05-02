@@ -1,6 +1,6 @@
 CREATE TABLE Assist (
-    E_ID INT,
-    C_ID INT,
+    E_ID INT NOT NULL,
+    C_ID INT NOT NULL,
     PRIMARY KEY (E_ID, C_ID),
     FOREIGN KEY (E_ID) REFERENCES Employees(E_ID),
     FOREIGN KEY (C_ID) REFERENCES Customers(C_ID)
