@@ -1,4 +1,4 @@
-CREATE TABLE Inventory (
+CREATE TABLE IF NOT EXISTS Inventory (
     B_ID INT NOT NULL UNIQUE,
     quantity INT NOT NULL,
     threshold INT NOT NULL,
