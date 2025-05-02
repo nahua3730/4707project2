@@ -1,9 +1,10 @@
 CREATE TABLE Employees (
-    E_ID INT PRIMARY KEY,
-    FName VARCHAR(15),
-    LName VARCHAR(15),
+    E_ID INT NOT NULL,
+    FName VARCHAR(15) NOT NULL,
+    LName VARCHAR(15) NOT NULL,
     hiredate DATE,
-    position VARCHAR(50),
+    position VARCHAR(50) NOT NULL,
     super_EID INT,
+    PRIMARY KEY (E_ID)
     FOREIGN KEY (super_EID) REFERENCES Employees(E_ID)
 );
