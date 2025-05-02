@@ -1,5 +1,5 @@
 CREATE TABLE Payments (
-    P_ID INT NOT NULL,
+    P_ID INT NOT NULL UNIQUE,
     C_ID INT NOT NULL,
     amount DECIMAL(10, 2) NOT NULL,
     method VARCHAR(50),
