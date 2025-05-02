@@ -6,7 +6,7 @@ CREATE TABLE Books (
     price DECIMAL(10, 2) NOT NULL,
     PubName VARCHAR(15),
     PubContact VARCHAR(100),
-    stock INT,
-    Ithreshold INT
+    stock INT NOT NULL,
+    Ithreshold INT NOT NULL,
     PRIMARY KEY (B_ID)
 );
