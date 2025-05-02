@@ -1,9 +1,9 @@
 CREATE TABLE Orders (
     O_ID INT NOT NULL UNIQUE,
     C_ID INT NOT NULL,
-    ODate DATE,
+    ODate DATE NOT NULL,
     SDate DATE,
-    Pstatus VARCHAR(20),
+    Pstatus VARCHAR(20) NOT NULL,
     Price DECIMAL(10, 2) NOT NULL,
     Quantity INT NOT NULL,
     PRIMARY KEY (O_ID),
