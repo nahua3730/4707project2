@@ -1,4 +1,4 @@
-CREATE TABLE Books (
+CREATE TABLE IF NOT EXISTS Books (
     B_ID INT NOT NULL UNIQUE,
     title VARCHAR(100) NOT NULL,
     PublicationYear INT,
