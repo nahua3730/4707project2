@@ -1,5 +1,5 @@
 CREATE TABLE Inventory (
-    B_ID INT NOT NULL,
+    B_ID INT NOT NULL UNIQUE,
     quantity INT NOT NULL,
     threshold INT,
     E_ID INT,
