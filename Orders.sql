@@ -1,5 +1,5 @@
 CREATE TABLE Orders (
-    O_ID INT NOT NULL,
+    O_ID INT NOT NULL UNIQUE,
     C_ID INT NOT NULL,
     ODate DATE,
     SDate DATE,
