@@ -1,6 +1,6 @@
 CREATE TABLE Manages (
-    E_ID INT,
-    B_ID INT,
+    E_ID INT NOT NULL,
+    B_ID INT NOT NULL,
     M_ID INT,
     PRIMARY KEY (E_ID, B_ID),
     FOREIGN KEY (B_ID) REFERENCES Inventory(B_ID),
