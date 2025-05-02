@@ -1,5 +1,5 @@
 CREATE TABLE Employees (
-    E_ID INT NOT NULL,
+    E_ID INT NOT NULL UNIQUE,
     FName VARCHAR(15) NOT NULL,
     LName VARCHAR(15) NOT NULL,
     hiredate DATE,
