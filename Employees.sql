@@ -5,6 +5,6 @@ CREATE TABLE Employees (
     hiredate DATE,
     position VARCHAR(50) NOT NULL,
     super_EID INT,
-    PRIMARY KEY (E_ID)
+    PRIMARY KEY (E_ID),
     FOREIGN KEY (super_EID) REFERENCES Employees(E_ID)
 );
