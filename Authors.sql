@@ -1,6 +1,6 @@
 CREATE TABLE Authors (
     A_ID INT PRIMARY KEY,
-    FName VARCHAR(50),
-    LName VARCHAR(50),
+    FName VARCHAR(15),
+    LName VARCHAR(15),
     biography TEXT
 );
