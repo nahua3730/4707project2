@@ -1,6 +1,7 @@
 CREATE TABLE Authors (
-    A_ID INT PRIMARY KEY NOT NULL,
+    A_ID INT NOT NULL UNIQUE,
     FName VARCHAR(15),
     LName VARCHAR(15),
-    biography TEXT
+    biography TEXT,
+    PRIMARY KEY (A_ID)
 );
