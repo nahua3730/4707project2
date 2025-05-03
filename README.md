@@ -44,7 +44,7 @@ This project implements the relational database schema for a fictional bookstore
   - `Contain.sql`
 
 ## Notes
-- We made create_database.sql to test the database.
+- We made create_database.sql to initialize the database environment and test the database.
 - We chose 15 characters for the name attributes because the lecture slide also chose 15 characters for the name.
 - Foreign keys and composite keys are used to enforce referential integrity based on the relational schema.
 - Relationship tables (`Authored`, `Assist`, `Process`, `Contain`) use composite primary keys as needed.
